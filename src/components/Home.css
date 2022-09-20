@@ -1,0 +1,36 @@
+.home {
+    background-color: var(--background-colour);
+    color:  var(--font-color);
+    height: 100vh;
+    width: 100%;
+}
+
+.home .content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding: 1rem;
+}
+
+.home .content p:first-child {
+    text-align: center;
+    font-size: 6rem;
+}
+
+.home .content p:nth-child(2) {
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+

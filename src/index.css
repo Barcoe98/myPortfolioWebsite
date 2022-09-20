@@ -1,0 +1,19 @@
+:root {
+  --background-colour: #ffffff;
+  --font-color: #000000;
+}
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen','Ubuntu', 'Cantarell', 
+  'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1.2;
+}
+
+
