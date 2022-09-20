@@ -3,7 +3,6 @@
   --font-color: #000000;
 }
 
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -14,6 +13,16 @@ body {
   font-family: 'Segoe UI', 'Roboto', 'Oxygen','Ubuntu', 'Cantarell', 
   'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   line-height: 1.2;
+}
+
+/* remove bullet point from */
+ul {
+  list-style-type: none;
+}
+
+/* remove underline from a elements */
+a {
+  text-decoration: none;
 }
 
 
