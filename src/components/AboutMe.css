@@ -1,0 +1,38 @@
+.about-me {
+    margin: auto;
+    padding: 8rem 1rem 0 1rem;
+    color: var(--text-color);
+  }
+  
+  .about-me .container {
+  }
+  
+  .about-me h2 {
+    font-size: 3rem;
+  }
+  
+  .about-me .col-2 {
+    width: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light-background-color) ;
+  }
+  
+  .about-me .col-2 p:first-of-type {
+    font-size: 1.6rem;
+  }
+
+  
+  .about-me button {
+    margin-top: 1rem;
+  }
+  
+  @media screen and (max-width: 940px) {
+    .about-me .container {
+      grid-template-columns: 1fr;
+    }
+
+  }
+  
